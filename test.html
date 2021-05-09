@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>
+Traffic Light
+</title>
+</head>
+<body>
+
+<h2> Traffic Light </h2>
+
+<form action="https://api.particle.io/v1/devices/e00fce688c5cf86eda252143/turn_on_led?access_token=61b9296f91bbafe4130f1ac8b25188bf5f829fe2" method="POST">
+<input type="checkbox" id="led1" name="arg" value="Red">
+<label for="led1"> Red </label><br>
+<input type="checkbox" id="led2" name="arg" value="Blue">
+<label for="led2"> Blue </label><br>
+<input type="checkbox" id="led3" name="arg" value="Green">
+<label for="led3"> Green </label><br>
+  <input type="submit" value="Toggle Lights">
+</form> 
+
+
+</body>
+</html>
